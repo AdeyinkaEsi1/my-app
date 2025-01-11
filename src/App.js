@@ -96,6 +96,8 @@ export default function MyApp() {
       <App />
       <h1>Welcome to my app</h1>
       <ButtonCount />
+      <ButtonCount />
+      <ButtonCount />
       <MyButton />
       <AboutPage />
       <Profile />
