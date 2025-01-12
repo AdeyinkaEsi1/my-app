@@ -1,0 +1,30 @@
+import './game.css';
+
+
+function Square({ value }) {
+  return (
+    <button className='square'>v</button>
+  )
+}
+
+export default function Board() {
+  return (
+    <>
+      <div className='board-row'>
+        <Square />
+        <Square />
+        <Square />
+      </div>
+      <div className='board-row'>
+        <Square />
+        <Square />
+        <Square />
+      </div>
+      <div className='board-row'>
+        <Square />
+        <Square />
+        <Square />
+      </div>
+    </>
+  );
+}
